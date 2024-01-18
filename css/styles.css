@@ -1,6 +1,9 @@
+body{
+}
+
 .box{
-    border: 3px solid gold;
-    width:150px;
-    height: 150px;
-    overflow: hidden auto;
+    width:10rem;
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orange;
 }
