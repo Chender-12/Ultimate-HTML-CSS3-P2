@@ -1,16 +1,6 @@
-*, *::after, *::before{
-    box-sizing: border-box;
-}
-p{
-    padding: 0px;
-    margin: 20px;
-}
 .box{
-    width: 100px;
-    height: 100px;
-    background-color: gold;
-    display: inline-block;
-}
-.box::before{
-    content: "Hello";
+    border: 3px solid gold;
+    width:150px;
+    height: 150px;
+    overflow: hidden auto;
 }
