@@ -1,28 +1,22 @@
-body{
-    margin: 10px;
-    height: 200vh;
+body {
+    margin:10px;
 }
-.boxes{
-    border:3px solid lightgray;
-    position: relative;
+.tweet{
+    border: 3px solid lightblue;
+    overflow: hidden;
 }
-
-.box{
-    width:5rem;
-    height: 5rem;
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
-.box-one{
-    background-color: gold;
+.avatar{
+   height: 5rem;
+   width: 5rem; 
+   background-color: gold;
+   float: left;
+   margin-right: 0.5rem;
 }
-.box-two{
-    background-color: tomato;
-    position: fixed;
-    top: 0;
-    left: 2rem;
-    right: 2rem;
-    width: auto;
-    z-index: 9999;
-}
-.box-three{
-    background-color: dodgerblue;
+.clear{
+    clear:both;
 }
