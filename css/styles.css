@@ -1,22 +1,20 @@
 body {
     margin:10px;
 }
-.tweet{
-    border: 3px solid lightblue;
-    overflow: hidden;
+.container{
+    border: 3px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
-.clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
-}
-.avatar{
-   height: 5rem;
-   width: 5rem; 
-   background-color: gold;
-   float: left;
-   margin-right: 0.5rem;
-}
-.clear{
-    clear:both;
+
+.box{
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    margin: 1rem;
 }
