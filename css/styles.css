@@ -8,13 +8,16 @@ body {
     justify-content: center;
     height: 90vh;
     align-items: center;
-    flex-wrap: wrap;
     align-content: center;
 }
 
 .box{
+    flex-basis: 10rem;
     width: 5rem;
     height: 5rem;
     background-color: gold;
     margin: 1rem;
+}
+
+.box-one {
 }
