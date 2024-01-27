@@ -28,6 +28,24 @@ nav a{
     color: white;
     text-decoration: none;
 }
+
 nav a:hover{
     color: #fff;
+}
+
+@media screen and (min-width: 786px){
+    nav ul{
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    nav a{
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border: 1px solid lightgray;
+    }
+    nav a:hover{
+        color: aqua;
+        border-color: aqua;
+    }
+    
 }
