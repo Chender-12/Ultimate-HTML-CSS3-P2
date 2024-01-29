@@ -3,13 +3,11 @@ html{
 }
 
 body{
-    margin:10px;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    width: 1140px;
     font-size: 1.8rem;
     line-height: 1.5;
-    padding: 2rem;
 }
+
 
 h1,h2,h3,h4,h5,h6{
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -40,6 +38,41 @@ h3 {
   }
 
 
+nav{
+    background-color: black;
+    width: 100%;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav.header{
+    height: 5vh;
+}
+
+nav.header ul{
+    height: 100%;
+    margin: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 0.3rem solid aliceblue;
+    border-radius: 30%;
+    margin: 1rem;
+}
+
+nav.header a{
+    padding: 0.5rem;
+}
+
 img{
     width: 100%;
 }
@@ -47,6 +80,7 @@ img{
 .container{
     max-width: 1140px;
     margin: 0 auto;
+    padding: 2rem;
 }
 
 .lead{
