@@ -18,6 +18,9 @@ flex-direction: column;
     background-color: red;
 }
 
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
 @media screen and (min-width:500px){
     .container{
         flex-direction: row;
